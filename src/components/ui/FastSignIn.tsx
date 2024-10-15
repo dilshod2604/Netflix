@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FcGoogle } from "react-icons/fc";
 const FastSignIn = () => {
   return (
-    <div className="w-full flex items-center gap-x-4">
+    <div className="w-full flex items-center gap-x-4 justify-center">
       <FaGithub
         onClick={() => signIn("github")}
         size={35}

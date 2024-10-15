@@ -1,11 +1,13 @@
 import Header from "@/components/Layout/Header";
+import SessionProvider from "@/providers/SessionProvider";
 import React, { ReactNode } from "react";
 
 const layout = ({ children }: { children: ReactNode }) => {
+  
   return (
     <div className="">
       <main className="w-screen h-screen flex items-center justify-center">
-        {children}
+       {children}
       </main>
     </div>
   );
